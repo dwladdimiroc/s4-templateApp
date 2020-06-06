@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "type": "FTwitter",
+        "connections": [
+            {
+                "connection": 1
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "type": "All",
+        "category": "Adapters",
+        "connections": [
+            {
+                "connection": 2
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "Language",
+        "category": "Filtros",
+        "language": "undefined",
+        "tracks": [
+            {
+                "track": "h"
+            }
+        ],
+        "connections": [
+            {
+                "connection": 3
+            },
+            {
+                "connection": 4
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "Language",
+        "category": "Filtros",
+        "language": "undefined",
+        "tracks": [
+            {
+                "track": "tyh"
+            }
+        ],
+        "connections": [
+            {
+                "connection": 5
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "KeywordInclusive",
+        "category": "Filtros",
+        "wordsInclusive": [
+            {
+                "word": "y"
+            }
+        ],
+        "connections": [
+            {
+                "connection": 3
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "MongoApp",
+        "category": "App",
+        "tableMongoDB": "y",
+        "connections": [
+            {
+                "connection": 0
+            }
+        ]
+    }
+]
